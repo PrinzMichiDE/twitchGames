@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #18181B;
+    color: #FFF;
+  }
+  
+  nav {
+    background-color: #9147FF;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #9147FF;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #772ce8;
+  }
+  
